@@ -1,0 +1,29 @@
+{
+  "name": "tx789club-stream",
+  "version": "1.0.0",
+  "description": "789Club Tài Xỉu WebSocket data stream server",
+  "main": "tx789club_final.js",
+  "scripts": {
+    "start": "node tx789club_final.js",
+    "dev": "nodemon tx789club_final.js"
+  },
+  "keywords": [
+    "789club",
+    "taixiu",
+    "websocket",
+    "stream"
+  ],
+  "author": "@mrtinhios",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0",
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
